@@ -1,0 +1,22 @@
+CREATE TABLE loja(id INTEGER PRIMARY KEY, nome TEXT,cor TEXT,estoque INTEGER, preço INTEGER);
+
+INSERT INTO loja VALUES(1,"camisa","verde",2,20);
+INSERT INTO loja VALUES(2,"short","amarelo",5,30);
+INSERT INTO loja VALUES(3,"chapéu","ND",4,15);
+INSERT INTO loja VALUES(4,"bikini","laranja",1,12);
+INSERT INTO loja VALUES(5,"body infantil","amarelo",4,14);
+INSERT INTO loja VALUES(6,"tenis","branco",0,16);
+INSERT INTO loja VALUES(7,"camisa","rosa",3,11);
+INSERT INTO loja VALUES(8,"sapato","lilás",8,5);
+INSERT INTO loja VALUES(9,"tenis","preto",4,6);
+INSERT INTO loja VALUES(10,"body infantil","branco",5,14);
+INSERT INTO loja VALUES(11,"bikini","roxo",3,12);
+INSERT INTO loja VALUES(12,"camisa","roxo",4,20 );
+INSERT INTO loja VALUES(13,"short","amarelo",5,30);
+INSERT INTO loja VALUES(14,"chapéu","branco",2,15);
+INSERT INTO loja VALUES(15,"chapéu","verde",1,15);
+
+SELECT * FROM loja;
+SELECT * FROM loja ORDER BY preço;
+SELECT cor,estoque FROM loja GROUP BY cor;
+SELECT nome, max(preço) FROM loja;
