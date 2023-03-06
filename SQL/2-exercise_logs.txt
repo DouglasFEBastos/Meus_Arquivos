@@ -1,3 +1,5 @@
+/ Uso da "função" AUTOINCREMENT para indexar linhas, WHERE como condição e AND/OR como operadores lógicos
+
 CREATE TABLE exercise_logs
     (id INTEGER PRIMARY KEY AUTOINCREMENT,
     type TEXT,
