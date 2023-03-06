@@ -1,3 +1,5 @@
+/ Uso dos comandos básicos, como ORDER BY, GROUP BY e max()
+
 CREATE TABLE loja(id INTEGER PRIMARY KEY, nome TEXT,cor TEXT,estoque INTEGER, preço INTEGER);
 
 INSERT INTO loja VALUES(1,"camisa","verde",2,20);
