@@ -1,4 +1,4 @@
-/ Uso dos comandos básicos, como ORDER BY, GROUP BY e max()
+/ Uso dos comandos básicos, como ORDER BY, GROUP BY e função agregada max()
 
 CREATE TABLE loja(id INTEGER PRIMARY KEY, nome TEXT,cor TEXT,estoque INTEGER, preço INTEGER);
 
